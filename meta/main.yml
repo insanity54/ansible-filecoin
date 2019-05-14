@@ -1,0 +1,42 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: insanity54
+  description: Quick and easy go-filecoin installation
+  license: "Unlicense"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: Archlinux
+      versions:
+        - all
+    - name: FreeBSD
+      versions:
+        - 10.3
+        - 10.2
+        - 10.1
+        - 10.0
+        - 9.3
+    - name: OpenBSD
+      versions:
+        - 5.9
+        - 6.0
+  galaxy_tags:
+    - web
+    - p2p
+    - cryptocurrency
+    - storage
+    - blockchain
+    - network
+    - ipfs
