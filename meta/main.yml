@@ -1,5 +1,6 @@
 ---
-dependencies: []
+dependencies:
+  - src: andrewrothstein.go
 
 galaxy_info:
   author: insanity54
