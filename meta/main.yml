@@ -1,6 +1,8 @@
 ---
+  
 dependencies:
-  - src: andrewrothstein.go
+  - role: andrewrothstein.go
+    version: v2.1.14
 
 galaxy_info:
   author: insanity54
@@ -10,15 +12,16 @@ galaxy_info:
   platforms:
     - name: EL
       versions:
-        - 6
-        - 7
+        - all
+    - name: Fedora
+      versions:
+        - all
     - name: Debian
       versions:
         - all
     - name: Ubuntu
       versions:
-        - trusty
-        - xenial
+        - all
     - name: Archlinux
       versions:
         - all
